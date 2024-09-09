@@ -15,5 +15,5 @@ jobs:
     with:
       project-name: 'ProjectOne'
       solution-path: './ProjectOne.sln'
-      dotnet-version: '7.0'
+      dotnet-version: '8.0'
 
