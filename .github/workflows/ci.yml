@@ -1,0 +1,10 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-test:
+    uses: saurang1984/dotnet-build-workflows/.github/workflows/dotnet-build.yml@main
