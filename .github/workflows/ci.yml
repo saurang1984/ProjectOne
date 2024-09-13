@@ -16,4 +16,5 @@ jobs:
       project-name: 'ProjectOne'
       solution-path: './ProjectOne.sln'
       dotnet-version: '8.0'
+      secret-value: ${{ secrets.PROJECTONE_SECRET }}
 
