@@ -8,6 +8,11 @@
             var calculator = new Calculator();
             int sum = calculator.Add(2, 3);
             Console.WriteLine($"Sum of 2 and 3 is: {sum}");
+
+            int mul = calculator.Multiply(19, 5);
+            Console.WriteLine($"Multiplication of 19 and 5 is: {mul}");
+
+
         }
     }
 }
